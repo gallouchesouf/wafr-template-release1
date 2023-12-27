@@ -38,6 +38,7 @@ import Google from 'assets/images/icons/social-google.svg';
 // ============================|| FIREBASE - LOGIN ||============================ //
 
 const FirebaseLogin = ({ ...others }) => {
+
     const theme = useTheme();
     const scriptedRef = useScriptRef();
     const matchDownSM = useMediaQuery(theme.breakpoints.down('md'));
